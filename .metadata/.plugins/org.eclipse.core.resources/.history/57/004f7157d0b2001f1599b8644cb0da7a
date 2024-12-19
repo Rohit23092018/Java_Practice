@@ -1,0 +1,9 @@
+package unconditionalstmt;
+
+public class Return 
+{
+	int roll=20;
+	String name="Rohit Kumar";
+	float marks=67.5f;
+		
+}

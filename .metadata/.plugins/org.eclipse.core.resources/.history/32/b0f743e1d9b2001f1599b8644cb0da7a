@@ -1,0 +1,18 @@
+package withparameterandreturnvalue;
+
+import java.util.Scanner;
+
+public class Triangle 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		float a,b,c,area=0;
+		System.out.println("Enter the 3 sides of triangle");
+		a=sc.nextFloat();
+		b=sc.nextFloat();
+		c=sc.nextFloat();
+		
+	}
+	public static float areatriangle()
+}

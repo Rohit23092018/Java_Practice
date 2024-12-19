@@ -1,0 +1,16 @@
+package Array_sec_b;
+
+public class Q2 
+{
+	public static void main(String[] args) 
+	{
+		int a[]= {31,4,-35,-16,89};
+		int i;
+		for(i=0;i<a.length;i++)
+		{
+			System.out.println(a[0]);
+		}
+		
+	}
+
+}
