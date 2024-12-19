@@ -5,11 +5,11 @@ public class Qiv
 	public static void main(String[] args) 
 	{
 		int i,number=6,factsum=0;
-		for(i=1;i<number;i++)
+		for(i=1;i<=number;i++)
 		{
 			if(number%i==0)
 			{
-				factsum=factsum+i;
+				factsum+=i;
 			}
 		}
 		if(number==factsum)
