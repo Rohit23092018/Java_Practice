@@ -5,7 +5,6 @@ public class Q3
 	public static void main(String[] args) 
 	{
 		int ar[]= {5,3,4,6,7,5,3,2,1};
-		int ar1[]=new int[9];
 		int i,k,check,duplicate=0,j;
 		
 		for(i=0;i<ar.length;i++)

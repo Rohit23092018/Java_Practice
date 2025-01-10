@@ -1,0 +1,19 @@
+package Array_sec_g;
+
+import java.util.Scanner;
+
+public class Q4 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int ar[]=new int[5];
+		int i;
+		
+		System.out.print("Enter the array elements");
+		for(i=0;i<ar.length;i++)
+		{
+			
+		}
+	}
+}
