@@ -6,7 +6,7 @@ public class Qf
 {
 	public static void main(String[] args) 
 	{
-		int ar[]=new int[7];
+		int ar[]=new int[5];
 		int i;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the arry elements");
