@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Array_sec_g.Qa&apos; to &apos;Q1&apos;&#x0D;&#x0A;- Original project: &apos;JavaPractice&apos;&#x0D;&#x0A;- Original element: &apos;Array_sec_g.Qa&apos;&#x0D;&#x0A;- Renamed element: &apos;Array_sec_g.Q1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Qa&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Array_sec_g{Qa.java[Qa" matchStrategy="1" name="Q1" qualified="false" references="true" similarDeclarations="false" stamp="1736490622245" textual="false" version="1.0"/>
+</session>

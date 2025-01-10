@@ -1,0 +1,39 @@
+package Array_sec_g;
+
+public class Q3 
+{
+	public static void main(String[] args) 
+	{
+		int ar[]= {5,3,4,6,7,5,3,2,1};
+		int ar1[]=new int[9];
+		int i,k,check,duplicate=0,j;
+		
+		for(i=0;i<ar.length;i++)
+		{
+			check=0;
+			for(k=0;k<i;k++)
+			{
+				if(ar[i]==ar[k])
+				{
+					check++;
+				}
+			}
+			if(check==0)
+			{
+				duplicate=0;
+				for(j=0;j<ar.length;j++)
+				{
+					if(ar[i]==ar[j])
+					{
+						duplicate++;
+											}
+				}
+				if(duplicate>1)
+				{
+					System.out.println("Duplicate elements:"+ar[i]);
+				}
+				System.out.print("Total Duplicate Count:"+duplicate);
+			}
+		}	
+	}
+}

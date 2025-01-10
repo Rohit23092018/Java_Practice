@@ -1,0 +1,18 @@
+package Array_sec_g;
+
+public class Q3 
+{
+	public static void main(String[] args) 
+	{
+		int ar[]= {5,3,4,6,7,5,3,2,1};
+		int i,j;
+		
+		for(i=0;i<ar.length;i++)
+		{
+			for(j=0;j<ar.length;j++)
+			{
+				
+			}
+		}
+	}
+}
