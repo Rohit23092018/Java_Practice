@@ -1,0 +1,9 @@
+package Array_sec_e;
+
+public class Qf 
+{
+	public static void main(String[] args) 
+	{
+		int ar[]= {78,77,78,17,71,17,78};
+	}
+}
