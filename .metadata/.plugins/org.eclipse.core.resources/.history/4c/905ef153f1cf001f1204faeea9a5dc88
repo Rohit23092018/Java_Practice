@@ -1,0 +1,32 @@
+package String;
+
+public class Copy_Q3 
+{
+	public static void main(String[] args) 
+	{
+		int alphabet=0,digit=0,symbol=0;
+		int i;
+		
+		String str="sathya@1234";
+		char ch[]=str.toCharArray();
+		
+		for(i=0;i<str.length();i++)
+		{
+			if((ch[i]=='A' && ch[i]=='Z')||(ch[i]=='a' && ch[i]=='z'))
+			{
+				alphabet++;
+			}
+			else if(ch[i]=='0' && ch[i]=='9')
+			{
+				digit++;
+			}
+			else
+			{
+				symbol++;
+			}
+		}
+		System.out.println("Alphabets="+alphabet);
+		System.out.println("Digits="+digit);
+		System.out.println("Symbol="+symbol);
+	}
+}

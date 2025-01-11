@@ -1,0 +1,49 @@
+package String;
+
+public class Practice 
+{
+	public static void main(String[] args) 
+	{
+//		String s="Sathya";
+//		System.out.println(s);
+//		
+//		String s1=s.concat(" tech");
+//		System.out.println(s1);
+//		
+//		String s2=new String("Sathya");
+//		System.out.println(s1==s2);
+//		
+//		String s3="Sathya";
+//		System.out.println(s==s3);
+//		
+//		String s4=new String("Sathya").intern();
+//		System.out.println(s==s4);
+//		
+//		System.out.println(s.equals(s1));
+//		
+//		char ch[]= {'R','A','M'};
+//		String str=new String(ch);
+//		
+//		System.out.println(str);
+		
+		String s="Welcome to sathya technologies";
+		System.out.println(s.charAt(5));
+		
+		String s1=s.concat(" Ameerpet");
+		System.out.println(s1);
+		
+		System.out.println(s.length());
+		
+		String s2="Welcome";
+		char ch[]=s2.toCharArray();
+		int i;
+		for(i=0;i<ch.length;i++)
+		{
+			System.out.println(ch[i]);
+		}
+		
+		String name1="Rohit";
+		String name2="rohit";
+		System.out.println(name1.equalsIgnoreCase(name2));
+	}
+}
