@@ -36,14 +36,6 @@ public class Q5
 				ar1[i][j]=sc.nextInt();
 			}
 		}
-		//Sum of two matrices
-		for(i=0;i<row;i++)
-		{
-			for(j=0;j<col;j++)
-			{
-				result[i][j]=ar[i][j]+ar1[i][j];
-			}
-		}
 		
 		System.out.println("First array:-");
 		for(i=0;i<row;i++)
@@ -65,7 +57,14 @@ public class Q5
 			System.out.println();
 		}
 		
-		System.out.println("After Sum of two matrices:-");
+		for(i=0;i<row;i++)
+		{
+			for(j=0;j<col;j++)
+			{
+				result[i][j]=ar[i][j]+ar1[i][j];
+			}
+		}
+		
 		for(i=0;i<row;i++)
 		{
 			for(j=0;j<col;j++)

@@ -8,16 +8,15 @@ public class Q5
 	{
 		Scanner sc=new Scanner(System.in);
 		
-		int i,j,row,col;
+		int i,j;
+		int ar[][]=new int[2][2];
+		int ar1[][]=new int[2][2];
+		int result[][]=new int[2][2];
 		
 		System.out.println("Enter the row size:-");
-		row=sc.nextInt();
+		int row=sc.nextInt();
 		System.out.println("enter the column size:-");
-		col=sc.nextInt();
-		
-		int ar[][]=new int[row][col];
-		int ar1[][]=new int[row][col];
-		int result[][]=new int[row][col];
+		int col=sc.nextInt();
 		
 		System.out.println("Enter the first array elements:-");
 		for(i=0;i<row;i++)
@@ -34,14 +33,6 @@ public class Q5
 			for(j=0;j<col;j++)
 			{
 				ar1[i][j]=sc.nextInt();
-			}
-		}
-		//Sum of two matrices
-		for(i=0;i<row;i++)
-		{
-			for(j=0;j<col;j++)
-			{
-				result[i][j]=ar[i][j]+ar1[i][j];
 			}
 		}
 		
@@ -61,16 +52,6 @@ public class Q5
 			for(j=0;j<col;j++)
 			{
 				System.out.print(ar1[i][j]+" ");
-			}
-			System.out.println();
-		}
-		
-		System.out.println("After Sum of two matrices:-");
-		for(i=0;i<row;i++)
-		{
-			for(j=0;j<col;j++)
-			{
-				System.out.print(result[i][j]+" ");
 			}
 			System.out.println();
 		}
