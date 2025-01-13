@@ -1,0 +1,23 @@
+package String_sec_1;
+
+public class Qv 
+{
+	public static void main(String[] args) 
+	{
+		char arr[]= {'a','X','3','m','x','@','p','7','m','4','$'};
+		
+		int i,j,count;
+		
+		for(i=0;i<arr.length;i++)
+		{
+			count=0;
+			for(j=0;j<arr.length;j++)
+			{
+				if(arr[i]==arr[j])
+				{
+					count++;
+				}
+			}
+		}
+	}
+}

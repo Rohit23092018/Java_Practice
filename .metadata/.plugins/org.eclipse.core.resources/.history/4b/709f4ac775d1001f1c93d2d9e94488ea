@@ -1,0 +1,11 @@
+package String_sec_1;
+
+public class Qd 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		int x=ch;
+		System.out.println(x);
+	}
+}

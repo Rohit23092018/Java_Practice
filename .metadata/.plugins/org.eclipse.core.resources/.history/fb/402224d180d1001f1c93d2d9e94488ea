@@ -1,0 +1,16 @@
+package String_sec_1;
+
+public class Qn 
+{
+	public static void main(String[] args) 
+	{
+		char arr[]= {'a','x','3','m','x','@','p','7','m','4','$'};
+		
+		int i;
+		
+		for(i=arr.length;i>0;i--)
+		{
+			System.out.println(arr[i]);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package String;
+
+public class String_sec_2 
+{
+	public static void main(String[] args) 
+	{
+		String str="$@thyaTecH@25YearS";
+		
+		System.out.println(str.length());
+	}
+}
