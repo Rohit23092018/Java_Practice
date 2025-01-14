@@ -1,0 +1,22 @@
+package String_sec_2;
+
+public class Q9 
+{
+	public static void main(String[] args) 
+	{
+		String s="Sathya";
+		String str="";
+		char ch[]=s.toCharArray();
+		int i;
+		
+		for(i=0;i<ch.length;i++)
+		{
+			if(ch[0]>=65 && ch[0]<=90)
+			{
+				str=str+ch[0]+32;
+			}
+			str=str+ch[i];
+		}
+		System.out.println(str);
+	}
+}

@@ -3,9 +3,9 @@
     <fullyQualifiedTypeName name="Method.StudentDemo"/>
     <fullyQualifiedTypeName name="Method.Student"/>
     <fullyQualifiedTypeName name="withoutparameterandwithoutreturnvalue.Fibonacii"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

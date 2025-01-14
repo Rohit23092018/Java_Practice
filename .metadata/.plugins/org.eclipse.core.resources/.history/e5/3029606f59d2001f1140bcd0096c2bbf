@@ -1,0 +1,26 @@
+package String_sec_2;
+
+public class Q26 
+{
+	public static void main(String[] args) 
+	{
+		String str="This is java exam code";
+		int i,j;
+		String str1[]=new String[5];
+		for(i=0;i<str.length();i++)
+		{
+			for(j=0;j<str1.length-1;j++)
+			{
+				if(str.charAt(i)==' ')
+				{
+					j++;
+				}
+				str1[j]=str1[j]+str.charAt(i);
+			}
+		}
+		for(i=0;i<str1.length-1;i++)
+		{
+			System.out.println(str1[i]);
+		}
+	}
+}
